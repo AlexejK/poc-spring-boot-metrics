@@ -1,0 +1,59 @@
+# Random Development Junk like eclipse and NetBeans and intellij
+*.log
+*.iml
+.idea
+*.ipr
+*.iws
+bundles/
+appgrid.jar
+cobertura.ser
+.classpath
+.project
+.settings
+.DS_Store
+.metadata
+nb-*
+nba*
+rebel.xml
+build
+out
+.gradle
+.nb-gradle
+*nb-private
+*.pyc
+bin
+private
+node_modules
+.springBeans
+.*.swp
+**/src/main/generated
+.factorypath
+classes
+
+# scala load tests
+target
+*.class
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml
+
+# Development scripts
+dev.sh
+
+# Logback files for web project debugging
+subprojects/web-*/logback.groovy
+
+# Configuration workarounds for web project debugging
+subprojects/web-*/conf
+
+# Spring boot default logging directories
+subprojects/web-admin/*log*
+subprojects/web-api/*log*
+
+# Bug in lombok plugin for intellij
+subprojects/*/src/*/java/lombok.config
+
+# Annotation processor generated files
+.apt_generated
+
+# Docker build artifacts
+**/docker/*.jar
